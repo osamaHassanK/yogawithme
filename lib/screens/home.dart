@@ -49,6 +49,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       key: scaffoldKey,
       drawer: CustomDrawer(),
       backgroundColor: Colors.white,
